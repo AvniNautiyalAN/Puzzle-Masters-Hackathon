@@ -4,7 +4,7 @@
 // a round/level is complete. Kept framework-agnostic (plain functions).
 
 import { getLevelById } from "../data/levels";
-import { getRandomZombieFromPool, DIFFICULTY_TO_ZOMBIES } from "../data/zombies";
+import { getRandomZombieFromPool } from "../data/zombies";
 
 export const STARTING_HEALTH = 100;
 
